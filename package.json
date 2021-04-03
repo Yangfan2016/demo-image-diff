@@ -1,0 +1,31 @@
+{
+  "name": "demo-image-diff",
+  "version": "1.0.0",
+  "description": "demo-image-diff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js",
+    "convert":"tsc && node build/convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yangfan2016/demo-image-diff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yangfan2016/demo-image-diff/issues"
+  },
+  "homepage": "https://github.com/Yangfan2016/demo-image-diff#readme",
+  "dependencies": {
+    "pixelmatch": "^5.2.1",
+    "pngjs": "^6.0.0",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/pixelmatch": "^5.2.2",
+    "@types/pngjs": "^6.0.0"
+  }
+}

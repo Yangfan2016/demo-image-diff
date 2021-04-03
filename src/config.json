@@ -1,0 +1,12 @@
+[
+    {
+        "before": "../assets/p3-2.png",
+        "after": "../assets/p4-2.png",
+        "output":"../report/diff-p3-p4.png"
+    },
+    {
+        "before": "../assets/p5-2.png",
+        "after": "../assets/p6-2.png",
+        "output":"../report/diff-p5-p6.png"
+    }
+]
