@@ -73,7 +73,7 @@ const diffList = config;
 async function main() {
     for await (let item of diffList) {
         const { before, after, output } = item;
-        diff({
+        await diff({
             path1: path.resolve(__dirname, before),
             path2: path.resolve(__dirname, after),
             output: path.resolve(__dirname, output)

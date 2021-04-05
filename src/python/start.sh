@@ -1,0 +1,1 @@
+python3 diff-image.py -f images/original.jpeg -s images/modified.jpeg -d results -o diff-res.png
